@@ -15,16 +15,25 @@ Supports triple provider mode:
   - Anthropic Claude   (requires --api-key)
 
 
+## 📦 Run your application.....
+
 <img width="750" height="400" alt="Run_application" src="https://github.com/user-attachments/assets/ba192457-ae69-4405-9772-ae902b207724" />
 
-<img width="750" height="500" alt="Chatbot" src="https://github.com/user-attachments/assets/4e6f248e-a632-4fcb-bc39-701ae0addfa5" />
+## 📦 Open your browser.....
 
-<img width="750" height="500" alt="Chatbot_response" src="https://github.com/user-attachments/assets/e409a699-7b09-491d-83dd-0560242bced5" />
+<img width="600" height="600" alt="Chatbot" src="https://github.com/user-attachments/assets/4e6f248e-a632-4fcb-bc39-701ae0addfa5" />
 
-<img width="3000" height="2250" alt="1000019618" src="https://github.com/user-attachments/assets/c56b9116-4c40-470a-a73f-17fea26961f2" />
+## 📦 Type your prompt .....
+
+<img width="600" height="600" alt="Chatbot_response" src="https://github.com/user-attachments/assets/e409a699-7b09-491d-83dd-0560242bced5" />
+
+## 📦 Your Arduino ....
+
+<img width="2000" height="1500" alt="1000019618" src="https://github.com/user-attachments/assets/c56b9116-4c40-470a-a73f-17fea26961f2" />
 
 
 
+## 📦 Installation
 
 📦 Download Ollama local model : (not required when using Claude)
 ```bash
