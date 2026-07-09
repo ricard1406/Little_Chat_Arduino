@@ -64,6 +64,15 @@ ollama pull qwen3:4b
    Note ): key required just if you use it. otherwise not required
 
    ```
+📦 Config your arduino_configuration
+   ```bash
+   [open your fav editor and set your arduino configuration]
+   [vi] Arduino_configuration.txt
+   Arduino UNO R3 and LCD 1602 module (connect pins are: 12, 11, 5, 4, 3, 2).
+
+   Note ): describe your arduino device . So, your LLM will know how use it .
+
+   ```
 📦 Start app
    ```bash
    python Little_Chat_Arduino_server.py
@@ -82,3 +91,15 @@ ollama pull qwen3:4b
    When use graph interface open your browser and run local URL:
    http://127.0.0.1:7860             
    ```
+
+📦 Remember to install your Arduino CLI
+   ```bash
+   https://docs.arduino.cc/arduino-cli/installation/
+
+curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sudo BINDIR=/usr/local/bin sh
+arduino-cli version
+arduino-cli config init
+arduino-cli core update-index
+arduino-cli core install arduino:avr
+
+arduino-cli lib install "LiquidCrystal"
