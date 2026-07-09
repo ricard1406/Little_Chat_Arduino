@@ -1,0 +1,1 @@
+Arduino UNO R3 and LCD 1602 module (connect pins are: 12, 11, 5, 4, 3, 2).
