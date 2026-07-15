@@ -200,6 +200,7 @@ def Exec_Arduino_Code(l_code: str):
     else:
         print("Okay: " + result.stdout)
 
+    #   WARNING: CHECK YOUR CORRECT /dev/tty***** ON YOUR COMPUTER
     cmd1 = ["arduino-cli", "upload", "-p", "/dev/ttyACM0", "--fqbn", "arduino:avr:uno", sk_name]
     result = subprocess.run(cmd1, capture_output=True, text=True)
     if result.returncode != 0:
