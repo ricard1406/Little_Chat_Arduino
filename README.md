@@ -41,7 +41,7 @@ ollama pull qwen3:4b
    ```bash
    wget https://github.com/ricard1406/Little_Chat_Arduino/archive/refs/heads/main.zip
    unzip main.zip
-   mv Little_Chat_Arduino-main Little_MCP
+   mv Little_Chat_Arduino-main Little_Chat_Arduino
    cd Little_Chat_Arduino
    ```
    ```bash
@@ -71,6 +71,19 @@ ollama pull qwen3:4b
    Note ): describe your arduino device . So, your LLM will know how use it .
 
    ```
+📦 If not done, remember to install your Arduino CLI.
+   ```bash
+Reference:
+   https://docs.arduino.cc/arduino-cli/installation/
+
+my simple guide:
+curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sudo BINDIR=/usr/local/bin sh
+arduino-cli version
+arduino-cli config init
+arduino-cli core update-index
+arduino-cli core install arduino:avr
+arduino-cli lib install "LiquidCrystal"
+```
 📦 Start app
    ```bash
    python Little_Chat_Arduino_server.py
@@ -90,15 +103,4 @@ ollama pull qwen3:4b
    http://127.0.0.1:7860             
    ```
 
-📦 Remember to install your Arduino CLI
-   ```bash
-Reference:
-   https://docs.arduino.cc/arduino-cli/installation/
 
-my simple guide:
-curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sudo BINDIR=/usr/local/bin sh
-arduino-cli version
-arduino-cli config init
-arduino-cli core update-index
-arduino-cli core install arduino:avr
-arduino-cli lib install "LiquidCrystal"
