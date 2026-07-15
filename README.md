@@ -91,12 +91,13 @@ arduino-cli lib install "LiquidCrystal"
    [leave open this terminal and open a second terminal please]
    [activate your env if not jet] : source ../.venv/bin/activate   ]
 
-   python little_Chat_Arduino.py graph --provider anthropic  --think
+   python Little_Chat_Arduino.py graph --provider anthropic  --think
 
-   python little_Chat_Arduino.py [text/graph]              (Ollama LLM)
-   python little_Chat_Arduino.py [text/graph] --think       (Ollama LLM thinking mode)
-   python little_Chat_Arduino.py [text/graph] --provider anthropic               (Claude LLM)
-   python little_Chat_Arduino.py [text/graph] --provider anthropic --think       (Claude LLM thinking mode)
+   (more options: .....)
+   python Little_Chat_Arduino.py [text/graph]              (Ollama LLM)
+   python Little_Chat_Arduino.py [text/graph] --think       (Ollama LLM thinking mode)
+   python Little_Chat_Arduino.py [text/graph] --provider anthropic               (Claude LLM)
+   python Little_Chat_Arduino.py [text/graph] --provider anthropic --think       (Claude LLM thinking mode)
 
    note: add graph parameter for graphical interface
    When use graph interface open your browser and run local URL:
