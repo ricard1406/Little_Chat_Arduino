@@ -1,7 +1,5 @@
 # Little_Chat_Arduino
-Little_Chat_Arduino is a simple AI Agent chatbot that lets you chat with your LLM but also offers an Arduino agent.
-
-little_Chat_Arduino is a simple AI Agent chatbot that lets you
+Little_Chat_Arduino is a simple AI Agent chatbot that lets you
 chat with your LLM but also offers an Arduino agent.
 With the Arduino agent you can ask your LLM to control your
 Arduino device and do things in the real world.
@@ -94,12 +92,13 @@ ollama pull qwen3:4b
 
 📦 Remember to install your Arduino CLI
    ```bash
+Reference:
    https://docs.arduino.cc/arduino-cli/installation/
 
+my simple guide:
 curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sudo BINDIR=/usr/local/bin sh
 arduino-cli version
 arduino-cli config init
 arduino-cli core update-index
 arduino-cli core install arduino:avr
-
 arduino-cli lib install "LiquidCrystal"
