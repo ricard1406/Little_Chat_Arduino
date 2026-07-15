@@ -68,12 +68,12 @@ ollama pull qwen3:4b
    [vi] Arduino_configuration.txt
    Arduino UNO R3 and LCD 1602 module (connect pins are: 12, 11, 5, 4, 3, 2).
 
-   Note ): describe your arduino device . So, your LLM will know how use it .
+   Note ): describe your arduino device in natural language . So, your LLM will know how use it .
 
    ```
 📦 If not done, remember to install your Arduino CLI.
    ```bash
-Reference:
+Reference web-site:
    https://docs.arduino.cc/arduino-cli/installation/
 
 my simple guide:
@@ -83,6 +83,7 @@ arduino-cli config init
 arduino-cli core update-index
 arduino-cli core install arduino:avr
 arduino-cli lib install "LiquidCrystal"
+sudo usermod -a -G dialout $USER   (re-log required)
 ```
 📦 Start app
    ```bash
